@@ -4,75 +4,81 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Jonathan Lee - Bitter Orange Apothecary</title>
+	<link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-	<nav>
-		<a href="#">Interaction</a>
-		<a href="#">Text</a>
-		<a href="#">Combined Elements</a>
-	</nav>
-<section>
-	<h1> Interactive Elements </h1>
-	<p> This is a <a href="#">link</a></p>
-	<a href="#"> Text Link </a>
-	<button>submit</button>
-	<button>reset</button>
-	<input type="radio" id="Basil" name="fav_Animal" value="Basil">
-	<label for="Basil">Basil</label>
-	<a href="#">
-	<img src="img/wallsconce.jpg" alt="a picture of some beautiful wainscotting">
-	</a>
-</section>
-<section>
-	<h1> Text Styling </h1>	
-	<h1> Headings </h1>
-		<h2>Heading 2</h2>
-			<h3>Heading 3</h3>
-				<h4>Heading 4</h4>
-					<h5>Heading 5</h5>
-	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-	<ol>
-		<li>Star Anise</li>
-		<li>Dried Lizard</li>
-		<li>Fermented Beetle Larvae</li>
-		<li>Licorice Root</li>
-	</ol>
-</section>
-<section>
-	<h1>Combined Elements </h1>
+<div class="container">
+		<div class="sidenav">
 		<nav>
-		<a href="#">Prologue</a>
-		<a href="#">Places</a>
-		<a href="#">People</a>
-		<a href="#">Encyclopedia</a>
-		<a href="#">Store</a>
+			<a href="#" id="interactions">Interaction</a>
+			<a href="#" id="text">Text</a>
+			<a href="#" id="Comele">Combined Elements</a>
 		</nav>
-	<img src="img/wallsconce.jpg" alt="a picture of some wainscotting for a store">
-	<p>Beautiful Wainscotting</p>
-	<em>$15.00</em>
-	<p>Only 15 left!</p>
+	</div>
+	<div class="main">
+	<section id="interactions">
+		<h1> Interactive Elements </h1>
+		<p> This is a <a href="#">link</a></p>
+		<a href="#"> Text Link </a>
+		<button>submit</button>
+		<button>reset</button>
+		<input type="radio" id="Basil" name="fav_Animal" value="Basil">
+		<label for="Basil">Basil</label>
+		<a href="#">
+		<img src="img/wallsconce.jpg" alt="a picture of some beautiful wainscotting">
+		</a>
+	</section>
+	<section id="text">
+		<h1> Text Styling </h1>	
+		<h1> Headings </h1>
+			<h2>Heading 2</h2>
+				<h3>Heading 3</h3>
+					<h4>Heading 4</h4>
+						<h5>Heading 5</h5>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		<ol>
+			<li>Star Anise</li>
+			<li>Dried Lizard</li>
+			<li>Fermented Beetle Larvae</li>
+			<li>Licorice Root</li>
+		</ol>
+	</section>
+	<section id="Comele">
+		<h1>Combined Elements </h1>
+			<nav>
+			<a href="#">Prologue</a>
+			<a href="#">Places</a>
+			<a href="#">People</a>
+			<a href="#">Encyclopedia</a>
+			<a href="#">Store</a>
+			</nav>
+		<img src="img/wallsconce.jpg" alt="a picture of some wainscotting for a store">
+		<p>Beautiful Wainscotting</p>
+		<em>$15.00</em>
+		<p>Only 15 left!</p>
 
-	<form>
-<label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname">
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname"><br>
-  <input type="text"  id="ccard" name="ccard">
-   <label for="ccard">Credit Card Information:</label>
-   <br><br>
-  <label for="Pickup">Pickup</label>	
-  <input type="radio" id="Pickup" value="Pickup">
-  <label for="Delivery">Delivery</label>	
-  <input type="radio" id="Delivery" value="Delivery">
-  <input type="submit" value="Submit">
-	</form>
+		<form>
+	<label for="fname">First name:</label>
+	  <input type="text" id="fname" name="fname">
+	  <label for="lname">Last name:</label>
+	  <input type="text" id="lname" name="lname"><br>
+	  <input type="text"  id="ccard" name="ccard">
+	   <label for="ccard">Credit Card Information:</label>
+	   <br><br>
+	  <label for="Pickup">Pickup</label>	
+	  <input type="radio" id="Pickup" value="Pickup">
+	  <label for="Delivery">Delivery</label>	
+	  <input type="radio" id="Delivery" value="Delivery">
+	  <input type="submit" value="Submit">
+		</form>
 
-<h1>Checkout Cart</h1>
-<p>2</p> <p> Star Anise </p> <p>$15.00</p>
-<p>3</p> <p> Lotus Pods </p> <p>$36.00</p>
-<br>
-<em>Total:</em> <p>$51.00</p>
-
-</section>
+	<h1>Checkout Cart</h1>
+	<p>2</p> <p> Star Anise </p> <p>$15.00</p>
+	<p>3</p> <p> Lotus Pods </p> <p>$36.00</p>
+	<br>
+	<em>Total:</em> <p>$51.00</p>
+	</section>
+	</div>
+</div>
 </body>
 </html>
