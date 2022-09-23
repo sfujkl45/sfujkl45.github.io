@@ -1,0 +1,43 @@
+
+.container{
+	display:grid;
+	grid-template-columns: 	1fr 1fr
+}
+
+div{
+	/*border: 1px solid black;*/
+}
+
+html{
+background-color:#e5e5e5;	
+}
+
+.sidenav{
+	height:100%;
+	position: 	fixed;
+	z-index: 1;
+	top:0;
+	left:0;
+	background-color: 	#282828;
+	overflow-x: 	hidden;
+	padding: 1rem;
+}
+
+.sidenav a{
+	display:block;
+	padding: .5rem;
+	font-size: 	1.25rem;
+	color:white;
+	text-decoration: 	none;
+}
+
+.sidenav a:hover{
+	color:black;
+}
+.main{
+	margin-left: 15rem;
+	font-size: 	28px;
+	padding:0px 10px;
+	background-color: #e5e5e5;	
+	/*overflow-x: hidden;*/
+}
