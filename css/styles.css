@@ -10,6 +10,7 @@ div{
 
 html{
 background-color:#e5e5e5;	
+font-family: 'Open Sans', sans-serif;
 }
 
 .sidenav{
@@ -39,5 +40,5 @@ background-color:#e5e5e5;
 	font-size: 	28px;
 	padding:0px 10px;
 	background-color: #e5e5e5;	
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 }
