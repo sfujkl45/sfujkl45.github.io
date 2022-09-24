@@ -21,11 +21,32 @@ p,a,button{
 	font-family: 'Open Sans', sans-serif;	
 }
 
+input[type=button]{
+	background:#fff;
+	border:1px solid black;
+	color:red;
+	font-size: 	1rem;
+	padding:6px;
+	margin-top:6px;
+	width:10rem;
+	border-radius: 	123px;
+}
+
+
+input[type=button]:hover{
+	transition: ease-in;
+	transition-duration: 	.2s;
+	background:black;
+	color:red;
+	font-size: 	1rem;
+	padding:6px;
+	margin-top:6px;
+}
 
 img{
 	width:100%;
 	height: auto;
-	adapted from https://www.w3schools.com/css/css_rwd_images.asp
+	/*adapted from https://www.w3schools.com/css/css_rwd_images.asp*/
 }
 
 section{
@@ -41,10 +62,12 @@ section{
 	border: 1px solid orange;
 	width:100%;
 	height:auto;
+	
 }
 
 .imglink img:hover{
-		filter:blur(5px);
+		filter:blur(10px);
+		transition: 	.2s;
 }
 
 .sidenav{
