@@ -21,6 +21,26 @@ p,a,button{
 	font-family: 'Open Sans', sans-serif;	
 }
 
+input[type=text]{
+	background:#fff;
+	border:1px solid white;
+	padding:6px;
+	margin-top:6px;
+	width:10rem;
+	border-bottom:2px solid black;
+	font-size: 1rem;
+}
+
+input[type=text]:focus{
+	background:#c6c6c6;
+	border:1px solid white;
+	padding:6px;
+	margin-top:6px;
+	width:10rem;
+	border-bottom:2px solid black;
+	font-size: 1rem;
+}
+
 input[type=button]{
 	background:#fff;
 	border:1px solid black;
@@ -31,7 +51,6 @@ input[type=button]{
 	width:10rem;
 	border-radius: 	123px;
 }
-
 
 input[type=button]:hover{
 	transition: ease-in;
