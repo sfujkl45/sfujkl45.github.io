@@ -8,23 +8,29 @@
 	<link href="css/fonts.css" rel="stylesheet">
 </head>
 <body>
-<div class="container">
 		<div class="sidenav">
 		<nav>
 			<a href="#" >Interaction</a>
+			<a href="#" >Images</a>
 			<a href="#" >Text</a>
 			<a href="#" >Combined Elements</a>
 		</nav>
-	</div>
-	<div class="main">
+		</div>
+		<div class="container">
+		<div class="main">
+<section>
+	<p  id="intro">Bitter Orange Apothecary is a modern and focused chinese medicine company located in downtown Oakland. Focusing on escoteric chinese medicines and ancient food as medicine practices, we seek to elevate how people see food and medicine as 2 branches of the same tree. Our mission is to find the right ingredients for your life to make each day joyous & full of nourishment + laughter.</p>
+</section>
 	<section id="interactions">
 		<h1> Interactive Elements </h1>
 		<p> This is a <a href="#">link</a></p>
 		<a href="#"> Text Link </a>
+		<h1>Tags</h1>
+
 		<br>
-		<input type="button" value="submit">
+		<input type="button" value="SUBMIT">
 		<br>
-		<input type="button" value="reset">
+		<input type="button" value="RESET">
 		<br>
 		<input type="radio" id="Basil" name="fav_Animal" value="Basil">
 		<label for="Basil">Basil</label>
@@ -42,6 +48,7 @@
 					<h4>Heading 4</h4>
 						<h5>Heading 5</h5>
 		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		<br>
 		<ol>
 			<li>Star Anise</li>
 			<li>Dried Lizard</li>
@@ -58,11 +65,34 @@
 			<a href="#">Encyclopedia</a>
 			<a href="#">Store</a>
 			</nav>
+			<br>
+		<div class="salescard narrow">
+			<a href="#">
 		<img src="img/wallsconce.jpg" alt="a picture of some wainscotting for a store">
 		<p>Beautiful Wainscotting</p>
-		<em>$15.00</em>
+		<p>$15.00</p>
 		<p>Only 15 left!</p>
+		<p id="navarrow">&#8594;</p>
+		 <!-- I found this online -->
+		</a>
+		</div>
+		<br>
+		<div class="ctaexpanded ctawrapper">
+			<a href="#">
+		<div class="ctachild">
+		<img src="img/wallsconce.jpg" alt="a picture of some wainscotting for a store">
+		</div>
+		<div class="ctachild">
+		<p>Beautiful Wainscotting</p>
+		<p>$15.00</p>
+		<p>Only 15 left!</p>
+		<input type="button" value="BUY NOW">
+		 <!-- I found this online -->
+		</div>
+		</a>
+		</div>
 
+		<br>
 		<form>
 	<label for="fname">First name:</label>
 	  <input type="text" id="fname" name="fname">

@@ -9,16 +9,17 @@ overflow-y: scroll;
 }
 
 h1,h2,h3,h4,h5,input,label{
-	font-family: "Times New Roman",Times, serif;
-	color: #740018;
+	font-family: 'Open Sans', sans-serif;	
 }
 
 p{
-	width:35rem;
+	/*width:50rem;*/
 }
 
 p,a,button{
-	font-family: 'Open Sans', sans-serif;	
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: 	none;
+	color: black;
 }
 
 input[type=text]{
@@ -44,19 +45,17 @@ input[type=text]:focus{
 input[type=button]{
 	background:#fff;
 	border:1px solid black;
-	color:red;
 	font-size: 	1rem;
 	padding:6px;
 	margin-top:6px;
-	width:10rem;
-	border-radius: 	123px;
+	width:8rem;
 }
 
 input[type=button]:hover{
 	transition: ease-in;
 	transition-duration: 	.2s;
 	background:black;
-	color:red;
+	color:white;
 	font-size: 	1rem;
 	padding:6px;
 	margin-top:6px;
@@ -72,9 +71,19 @@ section{
 	padding-top: 	2rem;
 	padding-bottom: 	2rem;
 }
+
 .container{
-	display:grid;
-	grid-template-columns: 1fr	1fr 1fr;
+	display: grid| inline-grid ;
+	grid-template-columns: 	repeat(3,1fr)
+}
+
+.ctachild{
+	background-color:green;
+}
+
+#intro{
+	font-size: 	5rem;
+	line-height: 	4.75rem;
 }
 
 .imglink{
@@ -111,17 +120,60 @@ section{
 
 .sidenav a:hover{
 	color:black;
-	background: 	black;
 }
 
 .sidenav a:focus{
 	color:black;
-	background: 	black;
 }
+
+.ctaexpanded{
+	border:1px solid black;
+	text-decoration:none;
+
+}
+
+.salescard{
+	border: 1px solid black;
+	width:	35rem;
+	padding: 3rem;
+	text-decoration: none;
+}
+
+.salescard:hover,:focus{
+	filter:brightness(1.25);
+}
+
+#navarrow:hover{
+	margin-left: 	20px;
+}
+
+#navarrow{
+	font-size: 	4rem;
+	width:29rem;
+	text-align: 	right;
+}
+
+.salescard img{
+	padding-bottom: 1rem;
+}
+
+.salescard p, em{
+	font-size: 	1rem;
+	padding-top: 	.25rem;
+
+}
+
+.ctawrapper{
+	display:grid;
+	grid-template-columns: 	1fr 1fr;
+}
+
 .main{
+	/*to accomodate the vertical nav bar*/
 	margin-left: 15rem;
 	font-size: 	28px;
-	padding:0px 10px;	
+	padding:0px 10px;
+	border:1px solid black;
 	/*overflow-x: hidden;*/
 }
 
