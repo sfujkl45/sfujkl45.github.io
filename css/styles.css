@@ -77,8 +77,18 @@ section{
 	grid-template-columns: 	repeat(3,1fr)
 }
 
+.ctawrapper{
+	display:grid;
+	grid-template-columns: 	1fr 1fr;
+}
+
 .ctachild{
 	background-color:green;
+	grid-column-start: col-start 1;
+}
+
+.ctachildex{
+	grid-column-start: col-start 2;
 }
 
 #intro{
@@ -163,18 +173,7 @@ section{
 
 }
 
-.ctawrapper{
-	display:grid;
-	grid-template-columns: 	1fr 1fr;
-}
 
-.ctachild{
-	grid-column-start: col-start 1;
-}
-
-.ctachildex{
-	grid-column-start: col-start 2;
-}
 .main{
 	/*to accomodate the vertical nav bar*/
 	margin-left: 15rem;
