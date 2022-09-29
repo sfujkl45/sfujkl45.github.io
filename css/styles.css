@@ -22,6 +22,19 @@ p,a,button{
 	color: black;
 }
 
+.heromenu{
+	border:1px solid black;
+}
+
+.heromenu a{
+	padding-right: 4rem;
+	width:100%;
+}
+
+.heromenu a:hover{
+	color:grey;
+}
+
 input[type=text]{
 	background:#fff;
 	border:1px solid white;
