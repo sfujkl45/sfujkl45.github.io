@@ -22,14 +22,27 @@ p,a,button{
 	color: black;
 }
 
+form{
+	border:1px solid black;
+	padding:10px;
+	width:25rem;
+}
+
+
+.navigation{
+	padding-top: 10px;
+}
+
 .heromenu{
 	border:1px solid black;
 }
 
 .heromenu a{
+	border:1px solid black;
 	padding-right: 4rem;
 	width:100%;
 }
+
 
 .heromenu a:hover{
 	color:grey;
