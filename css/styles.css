@@ -94,22 +94,31 @@ section{
 }
 
 .container{
-	display: grid | inline-grid ;
-	grid-template-columns: 	repeat(3,1fr)
+	display: grid;
+	grid-template-columns: 	repeat(auto-fit,minmax(400px,1fr));
+	padding:1rem;
+	grid-gap: .5rem;
+}
+.card{
+	border:1px solid black;
+	border-radius: 4rem;
+}
+.picturemarket{
+	position: relative;
+}
+.details{
+  padding: 20px 10px;
+}
+.details>h3{
+  font-weight: 600;
+  font-size: 18px;
+  margin: 10px 0 15px 0;
 }
 
-.ctawrapper{
-	display:grid;
-	grid-template-columns: 	1fr 1fr;
-}
-
-.ctachild{
-	background-color:green;
-	grid-column-start: col-start 1;
-}
-
-.ctachildex{
-	grid-column-start: col-start 2;
+.details>p{
+font-size: 15px;
+line-height: 30px;
+font-weight: 400;
 }
 
 #intro{
