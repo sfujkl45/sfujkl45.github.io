@@ -28,6 +28,10 @@ form{
 	width:25rem;
 }
 
+section{
+	padding-top: 50px;
+	padding-bottom:50px;
+}
 
 .navigation{
 	padding-top: 10px;
@@ -91,6 +95,10 @@ img{
 section{
 	padding-top: 	2rem;
 	padding-bottom: 	2rem;
+}
+
+.active a{
+color:black;
 }
 
 .container{
