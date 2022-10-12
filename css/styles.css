@@ -60,7 +60,7 @@ section{
 
 .HeroMenu {
   overflow: hidden;
-  /* background-color: #333; */
+
 }
 
 .HeroMenu a {
@@ -232,8 +232,9 @@ font-weight: 400;
 }
 
 #navarrow{
+	/* border:1px solid black; */
 	font-size: 	4rem;
-	width:29rem;
+	padding-right: 30px;
 	text-align: 	right;
 }
 
