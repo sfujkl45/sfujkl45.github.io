@@ -49,13 +49,13 @@ section{
 	padding-top: 10px;
 }
 
-.heromenu a{
+.HeroMenu a{
 	padding-right: 4rem;
 	width:100%;
 }
 
 
-.heromenu a:hover{
+.HeroMenu a:hover{
 	color:grey;
 }
 

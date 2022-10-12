@@ -66,11 +66,13 @@
 	</section>
 	<section id="text">
 		<h1> Text Styling </h1>
+		<div>
 		<h1> Headings </h1>
 			<h2>Heading 2</h2>
 				<h3>Heading 3</h3>
 					<h4>Heading 4</h4>
 						<h5>Heading 5</h5>
+		</div>
 		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 		<br>
 		<ol>
@@ -83,12 +85,16 @@
 	<section id="combinedelements">
 		<h1>Combined Elements </h1>
 		<div class="navigation">
-			<nav class="heromenu">
+			<nav class="HeroMenu" id="myHeroMenu">
 			<a id="navstart" href="#">Prologue</a>
 			<a href="#">Places</a>
 			<a href="#">People</a>
 			<a id="stickynav" href="#">Encyclopedia</a>
 			<a id="stickynav" href="#">Store</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+
 			</nav>
 		</div>
 		<div class="codeSnippet">
@@ -251,9 +257,38 @@
 	</tr>
 	</table>
 </div>
+<div class="codeSnippet">
+<pre>
+<code>
+	&lt;table id=&quot;checkout&quot;&gt;
+	&lt;tr&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;Lotus Pods&lt;/td&gt;
+		&lt;td&gt;$23.00&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;Szechuan Peppercorns&lt;/td&gt;
+		&lt;td&gt;$10.00&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td&gt;Star Anise&lt;/td&gt;
+		&lt;td&gt;$18.00&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Total:&lt;/td&gt;
+		&lt;td&gt;$51.00&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
+</code>
+</pre>
+</div>
 	</section>
 	</div>
 </div>
 </body>
 <script src="js/scrolltobar.js"></script>
+<script src="js/topnav.js"></script>
 </html>
