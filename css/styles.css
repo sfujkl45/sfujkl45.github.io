@@ -54,9 +54,31 @@ section{
 	width:100%;
 }
 
-
 .HeroMenu a:hover{
 	color:grey;
+}
+
+.HeroMenu {
+  overflow: hidden;
+  /* background-color: #333; */
+}
+
+.HeroMenu a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+/*taken from https://css-tricks.com/snippets/css/make-pre-text-wrap/*/
 }
 
 input[type=text]{
@@ -238,4 +260,26 @@ font-weight: 400;
 	/*
 	adapted from https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_col-s*/
 	}
+	.HeroMenu a:not(:first-child){
+		display:none;
+	}
+	.HeroMenu a.icon{
+		float:right;
+		display:block;
+	}
+}
+
+@media screen and(max-width:46.25rem){
+	.HeroMenu.responsive{position:relative;
+	}
+	.HeroMenu.responsive .icon {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.HeroMenu.responsive a {
+	float: none;
+	display: block;
+	text-align: left;
+}
 }
