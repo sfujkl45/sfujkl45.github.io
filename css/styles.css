@@ -12,6 +12,18 @@ h1,h2,h3,h4,h5,input,label{
 	font-family: 'Open Sans', sans-serif;
 }
 
+.codeSnippet{
+	border: 3px solid black;
+	padding:10px;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+
+}
+
+code{
+	font-size: 1rem;
+}
+
 p{
 	/*width:50rem;*/
 }
@@ -182,6 +194,16 @@ font-weight: 400;
 	color:black;
 }
 
+.paintchip{
+	border:1px solid black;
+	border-radius: 23rem;
+	padding:10px;
+	width: 10rem;
+	margin:10px;
+}
+
+.paintchip p{
+}
 
 #navarrow:hover{
 	margin-left: 	20px;
@@ -191,6 +213,15 @@ font-weight: 400;
 	font-size: 	4rem;
 	width:29rem;
 	text-align: 	right;
+}
+
+#checkout{
+	border:1px solid pink;
+	padding:1rem;
+}
+
+#checkout td{
+	padding:1rem;
 }
 .main{
 	/*to accomodate the vertical nav bar*/

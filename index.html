@@ -7,6 +7,7 @@
 	<link href="css/styles.css" rel="stylesheet">
 	<link href="css/fonts.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
 		<div class="sidenav">
@@ -27,11 +28,34 @@
 		<p> This is a <a href="#">link</a></p>
 		<a href="#"> Text Link </a>
 		<h1>Tags</h1>
+		<p> These are buttons for interaction across the platforms.</p>
 		<input type="button" value="SUBMIT">
 		<input type="button" value="RESET">
-
+		<div class="codeSnippet">
+		<pre>
+		<code>
+&lt;input type=&quot;button&quot; value=&quot;SUBMIT&quot;&gt;
+&lt;input type=&quot;button&quot; value=&quot;RESET&quot;&gt;
+		</code>
+		<pre>
+	</div>
 		<input type="radio" id="Basil" name="fav_Animal" value="Basil">
 		<label for="Basil">Basil</label>
+		<div class="codeSnippet">
+		<pre>
+		<code>
+&lt;input type=&quot;radio&quot; id=&quot;Basil&quot; name=&quot;fav_Animal&quot; value=&quot;Basil&quot;&gt;
+&lt;label for=&quot;Basil&quot;&gt;Basil&lt;/label&gt;
+		</code>
+	</pre>
+	</div>
+		<h1>Paint Chips</h1>
+		<p> Paint Chips are a unique way to identify unique tags for outgoing blog posts. They are typically colored and contain relevant one word tags for encyclopedic entries. </p>
+		<div>
+			<div class="pcholder">
+				<div><p class="paintchip i">Interesting</p></div>
+			</div>
+		</div>
 </sections>
 <section id="images">
 		<div class="imglink">
@@ -40,7 +64,6 @@
 		</a>
 		</div>
 	</section>
-
 	<section id="text">
 		<h1> Text Styling </h1>
 		<h1> Headings </h1>
@@ -68,19 +91,22 @@
 			<a id="stickynav" href="#">Store</a>
 			</nav>
 		</div>
+		<div class="codeSnippet">
+		<pre>
+		<code>
+			&lt;div class=&quot;navigation&quot;&gt;
+			&lt;nav class=&quot;heromenu&quot;&gt;
+			&lt;a id=&quot;navstart&quot; href=&quot;#&quot;&gt;Prologue&lt;/a&gt;
+			&lt;a href=&quot;#&quot;&gt;Places&lt;/a&gt;
+			&lt;a href=&quot;#&quot;&gt;People&lt;/a&gt;
+			&lt;a id=&quot;stickynav&quot; href=&quot;#&quot;&gt;Encyclopedia&lt;/a&gt;
+			&lt;a id=&quot;stickynav&quot; href=&quot;#&quot;&gt;Store&lt;/a&gt;
+			&lt;/nav&gt;
+			&lt;/div&gt;
+		</code>
+	</pre>
+	</div>
 		<!--Adapted from the gridcard samples at https://zoaibkhan.com/blog/fastest-way-to-make-a-responsive-card-grid-with-css/-->
-		<!--Single market item-->
-		<div class="card">
-		<div class="picturemarket">
-			<img src="img/wallsconce.jpg" alt="a picture of some beautiful wainscotting">
-		</div>
-		<div class="details">
-			<h3>Star Anise</h3>
-			<p>Star anise is the seed pod from the fruit of the Illicium verum plant, an evergreen shrub native to Southwest China. The star anise pod, which is shaped like a star (hence its name), has an average of eight points, each containing a single pea-sized seed.</p>
-			<p>$15.00/lb</p>
-			<input type="button" value="SUBMIT">
-		</div>
-		</div>
 		<!--A pack of market items-->
 		<div class="container">
 				<div class="card">
@@ -117,6 +143,47 @@
 				</div>
 				</div>
 		</div>
+		<div class="codeSnippet">
+		<pre>
+		<code>
+			&lt;div class=&quot;container&quot;&gt;
+			&lt;div class=&quot;card&quot;&gt;
+			&lt;div class=&quot;picturemarket&quot;&gt;
+			&lt;img src=&quot;img/wallsconce.jpg&quot; alt=&quot;a picture of some beautiful wainscotting&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;details&quot;&gt;
+			&lt;h3&gt;Fishwort&lt;/h3&gt;
+			&lt;p&gt;Houttuynia cordata grows in moist to wet soil or slightly submerged in water, as long as it is exposed partially or fully to the sun.[2][1] It can become invasive in gardens and difficult to eradicate as their roots run deep and actively spread. It propagates by division.&lt;/p&gt;
+			&lt;p&gt;$26.00/lb&lt;/p&gt;
+			&lt;input type=&quot;button&quot; value=&quot;SUBMIT&quot;&gt;
+			&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;card&quot;&gt;
+			&lt;div class=&quot;picturemarket&quot;&gt;
+			&lt;img src=&quot;img/wallsconce.jpg&quot; alt=&quot;a picture of some beautiful wainscotting&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;details&quot;&gt;
+			&lt;h3&gt;Concordia Flowers&lt;/h3&gt;
+			&lt;p&gt;Houttuynia cordata grows in moist to wet soil or slightly submerged in water, as long as it is exposed partially or fully to the sun.It can become invasive in gardens and difficult to eradicate as their roots run deep and actively spread. It propagates by division.&lt;/p&gt;
+			&lt;p&gt;$10.00/lb&lt;/p&gt;
+			&lt;input type=&quot;button&quot; value=&quot;SUBMIT&quot;&gt;
+			&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;card&quot;&gt;
+			&lt;div class=&quot;picturemarket&quot;&gt;
+			&lt;img src=&quot;img/wallsconce.jpg&quot; alt=&quot;a picture of some beautiful wainscotting&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;details&quot;&gt;
+			&lt;h3&gt;Star Anise&lt;/h3&gt;
+			&lt;p&gt;Star anise is the seed pod from the fruit of the Illicium verum plant, an evergreen shrub native to Southwest China. The star anise pod, which is shaped like a star (hence its name), has an average of eight points, each containing a single pea-sized seed.&lt;/p&gt;
+			&lt;p&gt;$15.00/lb&lt;/p&gt;
+			&lt;input type=&quot;button&quot; value=&quot;SUBMIT&quot;&gt;
+			&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;/div&gt;
+		</code>
+	</pre>
+	</div>
 			<br>
 		<br>
 		<form>
@@ -136,12 +203,54 @@
 	  <br><br>
 	  <input type="button" value="Submit" target="ibutton">
 		</form>
-
+		<div class="codeSnippet">
+		<pre>
+		<code>
+			&lt;form&gt;
+		&lt;label for=&quot;fname&quot;&gt;First name:&lt;/label&gt;
+		  &lt;input type=&quot;text&quot; id=&quot;fname&quot; name=&quot;fname&quot;&gt;
+		  &lt;br&gt;
+		  &lt;label for=&quot;lname&quot;&gt;Last name:&lt;/label&gt;
+		  &lt;input type=&quot;text&quot; id=&quot;lname&quot; name=&quot;lname&quot;&gt;
+		  &lt;br&gt;
+		   &lt;label for=&quot;ccard&quot;&gt;Credit Card Information:&lt;/label&gt;
+		  &lt;input type=&quot;text&quot;  id=&quot;ccard&quot; name=&quot;ccard&quot;&gt;
+		   &lt;br&gt;&lt;br&gt;
+		  &lt;label for=&quot;Pickup&quot;&gt;Pickup&lt;/label&gt;
+		  &lt;input type=&quot;radio&quot; id=&quot;Pickup&quot; value=&quot;Pickup&quot;&gt;
+		  &lt;label for=&quot;Delivery&quot;&gt;Delivery&lt;/label&gt;
+		  &lt;input type=&quot;radio&quot; id=&quot;Delivery&quot; value=&quot;Delivery&quot;&gt;
+		  &lt;br&gt;&lt;br&gt;
+		  &lt;input type=&quot;button&quot; value=&quot;Submit&quot; target=&quot;ibutton&quot;&gt;
+			&lt;/form&gt;
+		</code>
+	</pre>
+	</div>
+	<div>
+		<!-- Convert this into a table to access contents better -->
 	<h1>Checkout Cart</h1>
-	<p>2</p> <p> Star Anise </p> <p>$15.00</p>
-	<p>3</p> <p> Lotus Pods </p> <p>$36.00</p>
-	<br>
-	<em>Total:</em> <p>$51.00</p>
+	<table id="checkout">
+	<tr>
+		<td>2</td>
+		<td>Lotus Pods</td>
+		<td>$23.00</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>Szechuan Peppercorns</td>
+		<td>$10.00</td>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td>Star Anise</td>
+		<td>$18.00</td>
+	</tr>
+	<tr>
+		<td>Total:</td>
+		<td>$51.00</td>
+	</tr>
+	</table>
+</div>
 	</section>
 	</div>
 </div>
