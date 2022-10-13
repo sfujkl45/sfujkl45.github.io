@@ -12,6 +12,17 @@ h1,h2,h3,h4,h5,input,label{
 	font-family: 'Open Sans', sans-serif;
 }
 
+.infotag{
+	padding-top: 1rem;
+	padding-bottom:1rem;
+	max-width: 50rem;
+}
+
+.linkhighlight{
+	border:1px solid orange;
+	border-radius: 50%;
+}
+
 .codeSnippet{
 	border: 3px solid black;
 	padding:10px;
@@ -37,7 +48,11 @@ p,a,button{
 form{
 	border:1px solid black;
 	padding:10px;
-	width:25rem;
+	width:45rem;
+}
+
+.formbutton{
+	text-align: center;
 }
 
 section{
@@ -220,12 +235,16 @@ font-weight: 400;
 	border:1px solid black;
 	border-radius: 23rem;
 	padding:10px;
-	width: 10rem;
+	width: 5rem;
 	margin:10px;
+	font-size: 5px;
 }
 
-.paintchip p{
+.paintchip:hover{
+	background:black;
+	color:white;
 }
+
 
 #navarrow:hover{
 	margin-left: 	20px;

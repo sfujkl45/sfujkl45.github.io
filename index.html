@@ -17,6 +17,9 @@
 			<a href="#images" >Images</a>
 			<a href="#text" >Text</a>
 			<a href="#combinedelements" >Combined Elements</a>
+			<a href="javascript:void(0);" class="iconsidenav" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
 		</nav>
 		</div>
 		<div class="container">
@@ -26,8 +29,10 @@
 </section>
 	<section id="interactions">
 		<h1> Interactive Elements </h1>
-		<p> This is a <a href="#">link</a></p>
-		<a href="#"> Text Link </a>
+		<p class="infotag"> Sometimes we require interactions to designate clickable and user friendly interfaces. Our design ethos is paired back and minimal and we expect our interfaces to follow the same suite. Just remember: Be Minimal, Be Microscopic, and Be clean.</p>
+
+		<p> This is a <a class="linkhighlight" href="https://xjonathanlee.github.io/about.html">link to an local shop</a></p>
+		<a class="linkhighlight" href="#"> Text Link </a>
 		<h1>Tags</h1>
 		<p> These are buttons for interaction across the platforms.</p>
 		<input type="button" value="SUBMIT">
@@ -51,10 +56,10 @@
 	</pre>
 	</div>
 		<h1>Paint Chips</h1>
-		<p> Paint Chips are a unique way to identify unique tags for outgoing blog posts. They are typically colored and contain relevant one word tags for encyclopedic entries. </p>
+		<p class="infotag"> Paint Chips are a unique way to identify unique tags for outgoing blog posts. They are typically colored and contain relevant one word tags for encyclopedic entries. </p>
 		<div>
 			<div class="pcholder">
-				<div><p class="paintchip i">Interesting</p></div>
+				<div><p class="paintchip">Interesting</p></div>
 			</div>
 		</div>
 </sections>
@@ -67,6 +72,8 @@
 	</section>
 	<section id="text">
 		<h1> Text Styling </h1>
+
+		<p class="infotag"> Text Styling for <a class="linkhighlight">Bitter Orange</a> should be discreet but informative. Pairing the minimal aesthetic with the "talk" of a chinese apothecary. For text and correspondeces be sure to use open language that is both informative and light-hearted.</p>
 		<div>
 		<h1> Headings </h1>
 			<h2>Heading 2</h2>
@@ -95,7 +102,6 @@
 			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 				<i class="fa fa-bars"></i>
 			</a>
-
 			</nav>
 		</div>
 		<div class="codeSnippet">
@@ -194,21 +200,29 @@
 			<br>
 		<br>
 		<form>
+	<div>
 	<label for="fname">First name:</label>
 	  <input type="text" id="fname" name="fname">
 	  <br>
 	  <label for="lname">Last name:</label>
 	  <input type="text" id="lname" name="lname">
-	  <br>
+	</div>
+		<br>
+	<div>
 	   <label for="ccard">Credit Card Information:</label>
 	  <input type="text"  id="ccard" name="ccard">
-	   <br><br>
+	</div>
+		 <br><br>
+	<div>
 	  <label for="Pickup">Pickup</label>
 	  <input type="radio" id="Pickup" value="Pickup">
 	  <label for="Delivery">Delivery</label>
 	  <input type="radio" id="Delivery" value="Delivery">
-	  <br><br>
+	</div>
+		<br><br>
+		<div class="formbutton">
 	  <input type="button" value="Submit" target="ibutton">
+		</div>
 		</form>
 		<div class="codeSnippet">
 		<pre>
