@@ -19,8 +19,14 @@ h1,h2,h3,h4,h5,input,label{
 }
 
 .linkhighlight{
-	border:1px solid orange;
+	border:2px solid orange;
 	border-radius: 50%;
+	transform: rotate(0deg);
+}
+
+.linkhighlight:hover{
+	color:grey;
+
 }
 
 .codeSnippet{
