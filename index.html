@@ -64,6 +64,8 @@
 		</div>
 </sections>
 <section id="images">
+	<h1 class="modifiedH1"> Images</h1>
+	<p class="infotag">Images are all graded to be 300x500px and are color graded. Designing for web media dictates that the design should be paired back and minimal. Images when hovered should also show responsiveness, <a  href="#" class="linkhighlight">Bitter Orange</a> reccomends adjusting the brightness. </p>
 		<div class="imglink">
 		<a href="#">
 		<img src="img/wallsconce.jpg" alt="a picture of some beautiful wainscotting">
@@ -74,14 +76,41 @@
 		<h1> Text Styling </h1>
 
 		<p class="infotag"> Text Styling for <a class="linkhighlight">Bitter Orange</a> should be discreet but informative. Pairing the minimal aesthetic with the "talk" of a chinese apothecary. For text and correspondeces be sure to use open language that is both informative and light-hearted.</p>
-		<div>
-		<h1> Headings </h1>
+		<div class = "spacerDiv">
+		<h1 class="modifiedH1"> Heading1 </h1>
 			<h2>Heading 2</h2>
 				<h3>Heading 3</h3>
 					<h4>Heading 4</h4>
 						<h5>Heading 5</h5>
 		</div>
-		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		<div class="codeSnippet">
+		<pre>
+			<code>
+&lt;div class = &quot;spacerDiv&quot;&gt;
+&lt;h1 class=&quot;modifiedH1&quot;&gt; Heading1 &lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;/div&gt;
+		</code>
+	</pre>
+	</div>
+		<div class="spacerDiv">
+			<p class="infotag">Below is showing the typical layout for text in a standard paragraph for <a class="linkhighlight">Bitter Orange</a>. The type is Lorum Ipsum but the kerning, spacing and leading of individual characters is completely custom. Ensure proper spacing when designing type as it is important for users to read. </p>
+		</div>
+	<div>
+		<p class="paragraphBO">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	</div>
+	<div class="codeSnippet">
+	<pre>
+	<code>
+&lt;div&gt;
+&lt;p class=&quot;paragraphBO&quot;&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
+&lt;/div&gt;
+	</code>
+</pre>
+</div>
 		<br>
 		<ol>
 			<li>Star Anise</li>
@@ -89,6 +118,18 @@
 			<li>Fermented Beetle Larvae</li>
 			<li>Licorice Root</li>
 		</ol>
+		<div class="codeSnippet">
+		<pre>
+		<code>
+&lt;ol&gt;
+&lt;li&gt;Star Anise&lt;/li&gt;
+&lt;li&gt;Dried Lizard&lt;/li&gt;
+&lt;li&gt;Fermented Beetle Larvae&lt;/li&gt;
+&lt;li&gt;Licorice Root&lt;/li&gt;
+&lt;/ol&gt;
+		</code>
+	</pre>
+	</div>
 	</section>
 	<section id="combinedelements">
 		<h1>Combined Elements </h1>
@@ -107,15 +148,15 @@
 		<div class="codeSnippet">
 		<pre>
 		<code>
-			&lt;div class=&quot;navigation&quot;&gt;
-			&lt;nav class=&quot;heromenu&quot;&gt;
-			&lt;a id=&quot;navstart&quot; href=&quot;#&quot;&gt;Prologue&lt;/a&gt;
-			&lt;a href=&quot;#&quot;&gt;Places&lt;/a&gt;
-			&lt;a href=&quot;#&quot;&gt;People&lt;/a&gt;
-			&lt;a id=&quot;stickynav&quot; href=&quot;#&quot;&gt;Encyclopedia&lt;/a&gt;
-			&lt;a id=&quot;stickynav&quot; href=&quot;#&quot;&gt;Store&lt;/a&gt;
-			&lt;/nav&gt;
-			&lt;/div&gt;
+&lt;div class=&quot;navigation&quot;&gt;
+&lt;nav class=&quot;heromenu&quot;&gt;
+&lt;a id=&quot;navstart&quot; href=&quot;#&quot;&gt;Prologue&lt;/a&gt;
+&lt;a href=&quot;#&quot;&gt;Places&lt;/a&gt;
+&lt;a href=&quot;#&quot;&gt;People&lt;/a&gt;
+&lt;a id=&quot;stickynav&quot; href=&quot;#&quot;&gt;Encyclopedia&lt;/a&gt;
+&lt;a id=&quot;stickynav&quot; href=&quot;#&quot;&gt;Store&lt;/a&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
 		</code>
 	</pre>
 	</div>
@@ -159,41 +200,43 @@
 		<div class="codeSnippet">
 		<pre>
 		<code>
-			&lt;div class=&quot;container&quot;&gt;
-			&lt;div class=&quot;card&quot;&gt;
-			&lt;div class=&quot;picturemarket&quot;&gt;
-			&lt;img src=&quot;img/wallsconce.jpg&quot; alt=&quot;a picture of some beautiful wainscotting&quot;&gt;
-			&lt;/div&gt;
-			&lt;div class=&quot;details&quot;&gt;
-			&lt;h3&gt;Fishwort&lt;/h3&gt;
-			&lt;p&gt;Houttuynia cordata grows in moist to wet soil or slightly submerged in water, as long as it is exposed partially or fully to the sun.[2][1] It can become invasive in gardens and difficult to eradicate as their roots run deep and actively spread. It propagates by division.&lt;/p&gt;
-			&lt;p&gt;$26.00/lb&lt;/p&gt;
-			&lt;input type=&quot;button&quot; value=&quot;SUBMIT&quot;&gt;
-			&lt;/div&gt;
-			&lt;/div&gt;
-			&lt;div class=&quot;card&quot;&gt;
-			&lt;div class=&quot;picturemarket&quot;&gt;
-			&lt;img src=&quot;img/wallsconce.jpg&quot; alt=&quot;a picture of some beautiful wainscotting&quot;&gt;
-			&lt;/div&gt;
-			&lt;div class=&quot;details&quot;&gt;
-			&lt;h3&gt;Concordia Flowers&lt;/h3&gt;
-			&lt;p&gt;Houttuynia cordata grows in moist to wet soil or slightly submerged in water, as long as it is exposed partially or fully to the sun.It can become invasive in gardens and difficult to eradicate as their roots run deep and actively spread. It propagates by division.&lt;/p&gt;
-			&lt;p&gt;$10.00/lb&lt;/p&gt;
-			&lt;input type=&quot;button&quot; value=&quot;SUBMIT&quot;&gt;
-			&lt;/div&gt;
-			&lt;/div&gt;
-			&lt;div class=&quot;card&quot;&gt;
-			&lt;div class=&quot;picturemarket&quot;&gt;
-			&lt;img src=&quot;img/wallsconce.jpg&quot; alt=&quot;a picture of some beautiful wainscotting&quot;&gt;
-			&lt;/div&gt;
-			&lt;div class=&quot;details&quot;&gt;
-			&lt;h3&gt;Star Anise&lt;/h3&gt;
-			&lt;p&gt;Star anise is the seed pod from the fruit of the Illicium verum plant, an evergreen shrub native to Southwest China. The star anise pod, which is shaped like a star (hence its name), has an average of eight points, each containing a single pea-sized seed.&lt;/p&gt;
-			&lt;p&gt;$15.00/lb&lt;/p&gt;
-			&lt;input type=&quot;button&quot; value=&quot;SUBMIT&quot;&gt;
-			&lt;/div&gt;
-			&lt;/div&gt;
-			&lt;/div&gt;
+&lt;div class=&quot;container&quot;&gt;
+&lt;div class=&quot;card&quot;&gt;
+&lt;div class=&quot;picturemarket&quot;&gt;
+&lt;img src=&quot;img/wallsconce.jpg&quot; alt=&quot;a picture of some beautiful wainscotting&quot;&gt;
+&lt;/div&gt;
+&lt;div class=&quot;details&quot;&gt;
+&lt;h3&gt;Fishwort&lt;/h3&gt;
+&lt;p&gt;Houttuynia cordata grows in moist to wet soil or slightly submerged in water, as long as it is exposed partially or fully to the sun.[2][1] It can become invasive in gardens and difficult to eradicate as their roots run deep and actively spread. It propagates by division.&lt;/p&gt;
+&lt;p&gt;$26.00/lb&lt;/p&gt;
+&lt;input type=&quot;button&quot; value=&quot;SUBMIT&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;card&quot;&gt;
+&lt;div class=&quot;picturemarket&quot;&gt;
+&lt;img src=&quot;img/wallsconce.jpg&quot; alt=&quot;a picture of some beautiful wainscotting&quot;&gt;
+&lt;/div&gt;
+&lt;div class=&quot;details&quot;&gt;
+&lt;h3&gt;Concordia Flowers&lt;/h3&gt;
+&lt;p&gt;Houttuynia cordata grows in moist to wet soil or slightly submerged in water, as long as it is exposed partially or fully to the sun.It can become invasive in gardens and difficult to eradicate as their roots run deep and actively spread.
+It propagates by division.&lt;/p&gt;
+&lt;p&gt;$10.00/lb&lt;/p&gt;
+&lt;input type=&quot;button&quot; value=&quot;SUBMIT&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;card&quot;&gt;
+&lt;div class=&quot;picturemarket&quot;&gt;
+&lt;img src=&quot;img/wallsconce.jpg&quot; alt=&quot;a picture of some beautiful wainscotting&quot;&gt;
+&lt;/div&gt;
+&lt;div class=&quot;details&quot;&gt;
+&lt;h3&gt;Star Anise&lt;/h3&gt;
+&lt;p&gt;Star anise is the seed pod from the fruit of the Illicium verum plant, an evergreen shrub native to Southwest China. The star anise pod, which is shaped like a star (hence its name), has an average of eight points, each containing a
+single pea-sized seed.&lt;/p&gt;
+&lt;p&gt;$15.00/lb&lt;/p&gt;
+&lt;input type=&quot;button&quot; value=&quot;SUBMIT&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 		</code>
 	</pre>
 	</div>
@@ -227,23 +270,23 @@
 		<div class="codeSnippet">
 		<pre>
 		<code>
-			&lt;form&gt;
-		&lt;label for=&quot;fname&quot;&gt;First name:&lt;/label&gt;
-		  &lt;input type=&quot;text&quot; id=&quot;fname&quot; name=&quot;fname&quot;&gt;
-		  &lt;br&gt;
-		  &lt;label for=&quot;lname&quot;&gt;Last name:&lt;/label&gt;
-		  &lt;input type=&quot;text&quot; id=&quot;lname&quot; name=&quot;lname&quot;&gt;
-		  &lt;br&gt;
-		   &lt;label for=&quot;ccard&quot;&gt;Credit Card Information:&lt;/label&gt;
-		  &lt;input type=&quot;text&quot;  id=&quot;ccard&quot; name=&quot;ccard&quot;&gt;
-		   &lt;br&gt;&lt;br&gt;
-		  &lt;label for=&quot;Pickup&quot;&gt;Pickup&lt;/label&gt;
-		  &lt;input type=&quot;radio&quot; id=&quot;Pickup&quot; value=&quot;Pickup&quot;&gt;
-		  &lt;label for=&quot;Delivery&quot;&gt;Delivery&lt;/label&gt;
-		  &lt;input type=&quot;radio&quot; id=&quot;Delivery&quot; value=&quot;Delivery&quot;&gt;
-		  &lt;br&gt;&lt;br&gt;
-		  &lt;input type=&quot;button&quot; value=&quot;Submit&quot; target=&quot;ibutton&quot;&gt;
-			&lt;/form&gt;
+&lt;form&gt;
+&lt;label for=&quot;fname&quot;&gt;First name:&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;fname&quot; name=&quot;fname&quot;&gt;
+&lt;br&gt;
+&lt;label for=&quot;lname&quot;&gt;Last name:&lt;/label&gt;
+&lt;input type=&quot;text&quot; id=&quot;lname&quot; name=&quot;lname&quot;&gt;
+&lt;br&gt;
+&lt;label for=&quot;ccard&quot;&gt;Credit Card Information:&lt;/label&gt;
+&lt;input type=&quot;text&quot;  id=&quot;ccard&quot; name=&quot;ccard&quot;&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;label for=&quot;Pickup&quot;&gt;Pickup&lt;/label&gt;
+&lt;input type=&quot;radio&quot; id=&quot;Pickup&quot; value=&quot;Pickup&quot;&gt;
+&lt;label for=&quot;Delivery&quot;&gt;Delivery&lt;/label&gt;
+&lt;input type=&quot;radio&quot; id=&quot;Delivery&quot; value=&quot;Delivery&quot;&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;input type=&quot;button&quot; value=&quot;Submit&quot; target=&quot;ibutton&quot;&gt;
+&lt;/form&gt;
 		</code>
 	</pre>
 	</div>
@@ -275,27 +318,27 @@
 <div class="codeSnippet">
 <pre>
 <code>
-	&lt;table id=&quot;checkout&quot;&gt;
-	&lt;tr&gt;
-		&lt;td&gt;2&lt;/td&gt;
-		&lt;td&gt;Lotus Pods&lt;/td&gt;
-		&lt;td&gt;$23.00&lt;/td&gt;
-	&lt;/tr&gt;
-	&lt;tr&gt;
-		&lt;td&gt;3&lt;/td&gt;
-		&lt;td&gt;Szechuan Peppercorns&lt;/td&gt;
-		&lt;td&gt;$10.00&lt;/td&gt;
-	&lt;/tr&gt;
-	&lt;tr&gt;
-		&lt;td&gt;5&lt;/td&gt;
-		&lt;td&gt;Star Anise&lt;/td&gt;
-		&lt;td&gt;$18.00&lt;/td&gt;
-	&lt;/tr&gt;
-	&lt;tr&gt;
-		&lt;td&gt;Total:&lt;/td&gt;
-		&lt;td&gt;$51.00&lt;/td&gt;
-	&lt;/tr&gt;
-	&lt;/table&gt;
+&lt;table id=&quot;checkout&quot;&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Lotus Pods&lt;/td&gt;
+&lt;td&gt;$23.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Szechuan Peppercorns&lt;/td&gt;
+&lt;td&gt;$10.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Star Anise&lt;/td&gt;
+&lt;td&gt;$18.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Total:&lt;/td&gt;
+&lt;td&gt;$51.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
 &lt;/div&gt;
 </code>
 </pre>

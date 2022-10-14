@@ -29,11 +29,26 @@ h1,h2,h3,h4,h5,input,label{
 
 }
 
+.spacerDiv{
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+
+.modifiedH1{
+	font-size: 3.5rem;
+}
+
 .codeSnippet{
 	border: 3px solid black;
 	padding:10px;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+
+}
+
+.paragraphBO{
+	max-width:55rem;
+	kerning: normal;
 
 }
 
