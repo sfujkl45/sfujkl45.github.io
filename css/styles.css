@@ -11,6 +11,9 @@ overflow-y: scroll;
 h1,h2,h3,h4,h5,input,label{
 	font-family: 'Open Sans', sans-serif;
 }
+.introh1{
+	color:white;
+}
 
 .infotag{
 	padding-top: 1rem;
@@ -48,7 +51,6 @@ h1,h2,h3,h4,h5,input,label{
 
 .paragraphBO{
 	max-width:55rem;
-	kerning: normal;
 
 }
 
@@ -85,27 +87,26 @@ section{
 	padding-top: 10px;
 }
 
-.HeroMenu a{
-	padding-right: 4rem;
-	width:100%;
+.topnav{
+	overflow:hidden;
 }
 
-.HeroMenu a:hover{
+.topnav a{
+	float:left;
+	display:block;
+	text-align:center;
+	font-size: 1.2rem;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+.topnav a:hover{
 	color:grey;
 }
 
-.HeroMenu {
-  overflow: hidden;
 
-}
-
-.HeroMenu a {
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+.topnav .icon{
+	display:none;
 }
 
 pre {
@@ -196,7 +197,6 @@ color:black;
 }
 
 .card:hover{
-
 	filter:brightness(1.25);
 }
 
@@ -213,19 +213,18 @@ font-weight: 400;
 }
 
 .imglink{
-	border: 1px solid orange;
 	width:50%;
 	height:auto;
+	transition: 0.35s ease;
 
 }
 
 .imglink img:hover{
-		filter:blur(10px);
+		filter:brightness(130%);
 		transition: 	.2s;
 }
 
 .sidenav{
-	border:1px solid black;
 	height:100%;
 	position: fixed;
 	top:0;
@@ -270,19 +269,18 @@ font-weight: 400;
 }
 
 
-#navarrow:hover{
+.navarrow:hover{
 	margin-left: 	20px;
 }
 
-#navarrow{
+.navarrow{
 	/* border:1px solid black; */
-	font-size: 	4rem;
+	font-size: 	18rem;
 	padding-right: 30px;
 	text-align: 	right;
 }
 
 #checkout{
-	border:1px solid pink;
 	padding:1rem;
 }
 
